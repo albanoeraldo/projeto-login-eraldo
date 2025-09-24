@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    
+    <main>
+        <h1>Login</h1>
+        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <iframe src="predio.html" id="predio" name="tela" frameborder="0">
+                Seu arquivo não funcionou aqui... Tente outro <a href="https://www.google.com/intl/pt-BR/chrome/" target="_blank">navegador</a>!
+            </iframe>
+        <form action="cadastro.php" method="get">
+            <div>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seu e-mail" size="20">
+            </div>
+            <div>
+                <label for="isen">Senha</label>
+                <input type="password" name="sen" id="isen" required minlength="8" maxlength="15" placeholder="sua senha" autocomplete="current-password" size="20">
+            </div>
+            <div>
+                <input type="submit" value="Entrar"><br>
+                <input type="submit" value="Esqueci a senha">
+            </div>
+        </form>
+    </main>
 </body>
 </html>
