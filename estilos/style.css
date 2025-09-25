@@ -67,6 +67,7 @@ main > p {
 
 .material-symbols-outlined {
     font-size: 2em;
+    padding-left: 5px;
     color: white;
 }
 
@@ -75,7 +76,7 @@ main > p {
     background-color: #011601;
     color: black;
     display: block;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .fim {
