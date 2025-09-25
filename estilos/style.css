@@ -15,7 +15,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body, html {
+body {
     background-color: #011F26;
 }
 
@@ -23,7 +23,6 @@ main {
     background-color: white;
     width: 50vw;
     height: 40vh;
-    border-radius: 0px 0px 10px 10px;
     padding: 10px;
     position: relative;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
@@ -37,37 +36,44 @@ main > h1 {
 
 main > p {
     text-align: justify;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     text-indent: 25px;
 }
 
 #quadrado {
+    width: 270px;
+    height: 350px;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%); 
+    border-radius: 0px 0px 10px 10px;
+}
+
+#img {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #predio {
-    position: absolute;
+    width: 290px;
+    height: 30vh;
     border-radius:10px 10px 0px 0px;
     border: 1px solid black;
-    width: 53.5vw;
-    height: 31.5vh;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
 }
 
 .material-symbols-outlined {
     font-size: 2em;
+    color: white;
 }
 
 .linha {
     margin-top: 5px;
-    background-color: #022601;
-    color: white;
+    background-color: #011601;
+    color: black;
     display: block;
     border-radius: 5px;
 }
@@ -76,6 +82,12 @@ main > p {
     color: white;
     background-color: transparent;
     border: transparent;
+}
+
+.fim:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
 }
 
 #entrar {
@@ -100,7 +112,7 @@ main > p {
 
 #iemail {
     background-color: white;
-    color: white;
+    color: black;
     width: 80%;
     height: 5vh;
     border-radius: 10px;
@@ -110,7 +122,7 @@ main > p {
 
 #isen {
     background-color: white;
-    color: white;
+    color: black;
     width: 80%;
     height: 5vh;
     border-radius: 10px;
