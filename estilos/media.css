@@ -2,13 +2,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px){ /* TABLET */
     body {
-        background-image: linear-gradient(to bottom, #00090D, #011F26, #022601, #BF3604);
-        background-repeat: no-repeat;
-        width: 100vw;
-    }
-
-    main {
-        position: static;
+        background-image: linear-gradient(to bottom, #00090D, #011F26, #022601);
+        background-attachment: fixed;
     }
     
     #quadrado {
@@ -32,6 +27,41 @@
         height: 340px;
         border-radius: 10px 0px 0px 10px;
         border: 1px solid black;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        background-image: linear-gradient(to bottom, #00090D, #011F26, #022601, #691e02);
+        background-attachment: fixed;
+    }
+
+    main {
+        position: absolute;
+    }
+    
+    #quadrado {
+        position: absolute;
+        width: 700px;
+        height: 350px;
+        top: 50%;
+        left: 31%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px 0px 0px 10px; 
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411)
+    }
+
+    #img {
+        top: 50%;
+        left: 60.5%;
+        transform: translate(-50%, -50%);
+    }
+
+    #predio {
+        width: 411px;
+        height: 370px;
+        border-radius: 0px 10px 10px 0px;
         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
     }
 }
