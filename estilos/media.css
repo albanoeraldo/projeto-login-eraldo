@@ -43,10 +43,10 @@
     
     #quadrado {
         position: absolute;
-        width: 700px;
+        width: 750px;
         height: 350px;
-        top: 50%;
-        left: 31%;
+        top: 50.3%;
+        left: 30%;
         transform: translate(-50%, -50%);
         border-radius: 10px 0px 0px 10px; 
         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411)
@@ -54,8 +54,8 @@
 
     #img {
         top: 50%;
-        left: 60.5%;
-        transform: translate(-50%, -50%);
+        right: 60.5%;
+        transform: translate(-50%, -49%);
     }
 
     #predio {
