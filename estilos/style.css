@@ -63,59 +63,35 @@ div#cabeca > p {
     text-align: justify;
     font-size: 0.9em;
     padding: 10px;
+    text-indent: 20px;
 }
 
 .material-symbols-outlined {
     font-size: 2em;
-    padding-left: 5px;
     color: white;
+    width: 40px;
+    padding: 5px;
 }
 
 .linha {
-    margin: 5px;
     display: block;
-    background-color: #011601;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 45px;
+    border: none;
+    background-color: #011F26;
     color: black;
-    border-radius: 10px;
-}
-
-.fim {
-    color: white;
-    background-color: transparent;
-    border: transparent;
-}
-
-.fim:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    color: black;
-}
-
-#entrar {
-    text-align: center;
-    margin: 10px;
-    background-color: #BF3604;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
-}
-
-#esqueci {
-    text-align: center;
-    margin: 10px;
-    background-color: #bf3604a9;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    border-radius: 8px;
 }
 
 #iemail {
     background-color: white;
     color: black;
     width: 80%;
-    height: 5vh;
+    height: 40px;
+    transform: translateY(-10px); /* Ajuda do Guanabara */
     border-radius: 10px;
-    margin-bottom: 5px;
     font-size: 1em;
 }
 
@@ -123,8 +99,44 @@ div#cabeca > p {
     background-color: white;
     color: black;
     width: 80%;
-    height: 5vh;
+    height: 40px;
+    transform: translateY(-10px); /* Ajuda do Guanabara */
     border-radius: 10px;
-    margin-bottom: 5px;
     font-size: 1em;
+}
+
+#entrar {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #BF3604;
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
+}
+
+#esqueci {
+    display: block;
+    margin: auto;
+    background-color: #bf3604a9;
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+}
+
+.fim {
+    margin: auto;
+    padding: 10px;
+    display: block;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.fim:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
 }
