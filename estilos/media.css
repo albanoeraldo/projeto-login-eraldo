@@ -1,28 +1,45 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 1200px){ /* TABLET */
+@media screen and (min-width: 768px) and (max-width: 995px){ /* TABLET */
     body {
         background-image: linear-gradient(to bottom, #00090D, #011F26, #022601);
     }
 
     section#quadrado {
         width: 80vw;
-        height: 290px;
+        height: 350px;
+        border-radius: 10px;
     }
 
     section#quadrado > div#img {
         float: left;
         width: 30%;
         height: 100%;
+        border-radius: 10px 0px 0px 10px;
     }
 
     section#quadrado > div#cabeca {
         float: right;
         width: 70%;
+        margin-bottom: 30px;
+    }
+
+    form > div.linha {
+        float: right; 
+        width: 65%;
+        margin: center;
+        margin-right: 15px;
+    }
+
+    input[type=submit] {
+        float: right; 
+        width: 65%;
+        margin: center;
+        margin: 0px 15px 10px 0px;
     }
 }
 
-@media screen and (min-width: 1201px){
+@media screen and (min-width: 996px){
     body {
         background-image: linear-gradient(to bottom, #00090D, #011F26, #022601, #691e02);
     }
@@ -36,10 +53,26 @@
         float: right;
         width: 50%;
         height: 100%;
+        border-radius: 0px 10px 10px 0px;
     }
 
     section#quadrado > div#cabeca {
         float: left;
         width: 50%;
+        margin-bottom: 30px;
+    }
+
+    form > div.linha {
+        float: left;
+        width: 45%;
+        margin: center;
+        margin-left: 20px;
+    }
+
+    input[type=submit] {
+        float: left;
+        width: 45%;
+        margin: center;
+        margin: 0px 0px 10px 20px;
     }
 }
