@@ -10,30 +10,35 @@
     <link rel="stylesheet" href="estilos/media.css">
 </head>
 <body>
-    <main id="quadrado">
-        <h1>Login</h1>
-        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-        <form action="cadastro.php" method="POST">
-            <div class="linha">
-                <span class="material-symbols-outlined">account_box</span>
-                <label for="iemail"></label>
-                <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seu e-mail" size="20">
+    <main>
+        <section id="quadrado">
+            <div id="img">
+                
             </div>
-            <div class="linha">
-                <span class="material-symbols-outlined">key</span>
-                <label for="isen"></label>
-                <input type="password" name="sen" id="isen" size="20" required minlength="8" maxlength="15" placeholder="sua senha" autocomplete="current-password" >
+            <div id="cabeca">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
             </div>
-            <div id="entrar">
-                <input class="fim" type="submit" value="Entrar"><br>
-            </div>
-            <div id="esqueci">
-                <input class="fim" type="submit" value="Esqueci a senha">
-            </div>
-        </form>
+            <form action="login.php" method="POST">
+                <div class="linha">
+                    <span class="material-symbols-outlined">account_box</span>
+                    <label for="iemail"></label>
+                    <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seu e-mail" size="20">
+                </div>
+                <div class="linha">
+                    <span class="material-symbols-outlined">key</span>
+                    <label for="isen"></label>
+                    <input type="password" name="sen" id="isen" size="20" required minlength="8" maxlength="15" placeholder="sua senha" autocomplete="current-password" >
+                </div>
+                <div id="entrar">
+                    <input class="fim" type="submit" value="Entrar"><br>
+                </div>
+                <div id="esqueci">
+                    <input class="fim" type="submit" value="Esqueci a senha">
+                </div>
+            </form>
+        </section>
     </main>
-    <div id="img">
-        <img id="predio" src="imagens/predio.jpg" alt="predio">
-    </div>
+    
 </body>
 </html>
