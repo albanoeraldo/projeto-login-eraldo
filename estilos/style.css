@@ -36,17 +36,18 @@ section#quadrado {
     top: 50%;
     left: 50%;
     width: 250px;
-    height: 500px;
-    padding: 10px;
+    height: 550px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.411);
     border-radius: 15px;
+    
     transition: width 0.3s, higth 0.3s; /* Ajuda do Guanabara */
     transition-timing-function: ease; /* Ajuda do Guanabara */
 }
 
 section#quadrado > div#img {
     display: block;
-    background: white url(../imagens/predio.jpg);
+    padding: 0px;
+    background: #00090D url(../imagens/predio.jpg);
     background-repeat: no-repeat;
     height: 200px;
     background-size: cover;
@@ -56,7 +57,17 @@ section#quadrdo > div#cabeca {
     display: block;
 }
 
+div#cabeca > h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 3px;
+}
 
+div#cabeca > p {
+    text-align: justify;
+    font-size: 0.9em;
+    padding: 10px;
+}
 
 .material-symbols-outlined {
     font-size: 2em;
@@ -65,7 +76,7 @@ section#quadrdo > div#cabeca {
 }
 
 .linha {
-    margin-top: 5px;
+    margin: 5px;
     background-color: #011601;
     color: black;
     display: block;
@@ -86,7 +97,7 @@ section#quadrdo > div#cabeca {
 
 #entrar {
     text-align: center;
-    margin-top: 5px;
+    margin: 10px;
     background-color: #BF3604;
     display: block;
     padding: 10px;
@@ -96,8 +107,8 @@ section#quadrdo > div#cabeca {
 
 #esqueci {
     text-align: center;
-    margin-top: 5px;
-    background-color: #bf36048c;
+    margin: 10px;
+    background-color: #bf3604a9;
     display: block;
     padding: 10px;
     border-radius: 5px;
