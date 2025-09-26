@@ -31,7 +31,6 @@ main {
 section#quadrado {
     position: absolute;
     background-color: white;
-    transform: translate(-50%, -50%);
     overflow: hidden; /* Ajuda do Guanabara */
     top: 50%;
     left: 50%;
@@ -39,6 +38,7 @@ section#quadrado {
     height: 550px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.411);
     border-radius: 15px;
+    transform: translate(-50%, -50%);
 }
 
 section#quadrado > div#img {
@@ -73,7 +73,7 @@ div#cabeca > p {
     padding: 5px;
 }
 
-.linha {
+form > div.linha {
     display: block;
     margin: auto;
     margin-bottom: 10px;
@@ -83,6 +83,10 @@ div#cabeca > p {
     background-color: #011F26;
     color: black;
     border-radius: 8px;
+}
+
+di.linha > label {
+    display:none;
 }
 
 #iemail {
@@ -105,38 +109,27 @@ div#cabeca > p {
     font-size: 1em;
 }
 
-#entrar {
+input[type=submit] {
+    display: block;
+    font-size: 1em;
     display: block;
     margin: auto;
-    margin-bottom: 10px;
     background-color: #BF3604;
+    color: white;
     width: 80%;
     height: 35px;
     border-radius: 5px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
-}
-
-#esqueci {
-    display: block;
-    margin: auto;
-    background-color: #bf3604a9;
-    width: 80%;
-    height: 35px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
-}
-
-.fim {
-    margin: auto;
-    padding: 10px;
-    display: block;
-    color: white;
-    background-color: transparent;
     border: none;
 }
 
-.fim:hover {
+input[type=submit]:hover {
     text-decoration: underline;
     cursor: pointer;
     color: black;
+}
+
+#esqueci {
+    background-color: #bf3604b0;
+    border: 1px solid #BF3604;
 }
