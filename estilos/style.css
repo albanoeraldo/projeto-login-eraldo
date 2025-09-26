@@ -39,14 +39,10 @@ section#quadrado {
     height: 550px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.411);
     border-radius: 15px;
-    
-    transition: width 0.3s, higth 0.3s; /* Ajuda do Guanabara */
-    transition-timing-function: ease; /* Ajuda do Guanabara */
 }
 
 section#quadrado > div#img {
     display: block;
-    padding: 0px;
     background: #00090D url(../imagens/predio.jpg);
     background-repeat: no-repeat;
     height: 200px;
@@ -77,9 +73,9 @@ div#cabeca > p {
 
 .linha {
     margin: 5px;
+    display: block;
     background-color: #011601;
     color: black;
-    display: block;
     border-radius: 10px;
 }
 
@@ -99,7 +95,6 @@ div#cabeca > p {
     text-align: center;
     margin: 10px;
     background-color: #BF3604;
-    display: block;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
@@ -109,7 +104,6 @@ div#cabeca > p {
     text-align: center;
     margin: 10px;
     background-color: #bf3604a9;
-    display: block;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
