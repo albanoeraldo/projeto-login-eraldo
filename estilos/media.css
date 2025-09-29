@@ -12,14 +12,14 @@
     }
 
     section#quadrado > div#img {
-        float: left;
+        float: left; /* Ajuda do Guanabara */
         width: 30%;
         height: 100%;
         border-radius: 10px 0px 0px 10px;
     }
 
     section#quadrado > div#cabeca {
-        float: right;
+        float: right; 
         width: 70%;
         margin-bottom: 30px;
     }

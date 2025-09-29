@@ -40,7 +40,7 @@ section#quadrado {
 
 section#quadrado > div#img {
     display: block;
-    background: #00090D url(../imagens/predio.jpg); /* Ajuda do Guanabara */
+    background: #00090D url(../imagens/predio.jpg);
     background-repeat: no-repeat;
     height: 200px;
     background-size: cover;
@@ -90,7 +90,7 @@ di.linha > label {
     color: black;
     width: 80%;
     height: 40px;
-    transform: translateY(-10px); 
+    transform: translateY(-10px); /* Ajuda do Guanabara */
     border-radius: 10px;
     font-size: 1em;
 }
@@ -100,7 +100,7 @@ di.linha > label {
     color: black;
     width: 80%;
     height: 40px;
-    transform: translateY(-10px);
+    transform: translateY(-10px); /* Ajuda do Guanabara */
     border-radius: 10px;
     font-size: 1em;
 }
